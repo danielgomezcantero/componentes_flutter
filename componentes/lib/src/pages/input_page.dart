@@ -14,7 +14,7 @@ class _InputPageState extends State<InputPage> {
   String _email = '';
   String _fecha = '';
 
-  String _opcionSeleccionada = 'Seleccionar';
+  String _opcionSeleccionada = 'Volar';
   List<String> _poderes = ['Volar', 'Super Aliento', 'Rayos X', 'Super Fuerza'];
 
   TextEditingController _inputFieldDateController = new TextEditingController();
@@ -159,6 +159,7 @@ class _InputPageState extends State<InputPage> {
           width: 30.0,
         ),
         DropdownButton(
+            focusColor: Color(50),
             onTap: () {},
             value: _opcionSeleccionada,
             dropdownColor: Colors.lightBlueAccent,
